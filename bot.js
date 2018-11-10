@@ -302,7 +302,7 @@ client.on('guildMemberAdd', Sal => { //By Salto7#4595
     var embed = new Discord.RichEmbed()
     .setAuthor(Sal.user.username, Sal.user.avatarURL)
     .setThumbnail(Sal.user.avatarURL)
-    .setImage('http://live-timely-4jepdssgmc.time.ly/wp-content/uploads/2018/08/welcomeEvents.jpg') //هنا حط الصوره الي تبيها
+    .setImage('https://cdn.discordapp.com/attachments/510817997032652811/510872525907951619/6a39e35882b236f29965c9070bad5ce51f1dd01f_hq-1-1-1-1-1.gif') //هنا حط الصوره الي تبيها
     .setTitle('عضو جديد!')
     .setDescription('مرحبا بك بالسيرفر')
     .addField('``ايدي العضو``:',"" +  Sal.user.id, true)
