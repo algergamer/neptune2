@@ -2044,12 +2044,5 @@ if (message.mentions.users.size < 1) return message.reply("**منشن الشخص
 }
 });
  
-client.on("ready", () => {
- function arabecodes() {
-   client.guilds.get('494893307223080992')roles.find("name", "MARIAM").setColor("RANDOM");
- }
- setInterval(arabecodes, 1700);
-})
- 
  
 client.login(process.env.BOT_TOKEN);
